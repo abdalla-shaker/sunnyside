@@ -52,7 +52,7 @@
     display: block;
   }
 
-  .header-nav {
+  .nav {
     position: fixed;
     width: 90vw;
     height: 50vh;
@@ -88,7 +88,7 @@
     right: 0;
   }
 
-  .header.active .header-nav {
+  .header.active .nav {
     display: flex;
     align-items: center;
     justify-content: center;
