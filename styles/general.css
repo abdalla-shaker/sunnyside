@@ -60,6 +60,10 @@ body {
   column-gap: 6.4rem;
 }
 
+.grid--1-cols {
+  grid-template-columns: 1fr;
+}
+
 .grid--2-cols {
   grid-template-columns: 1fr 1fr;
 }
@@ -78,6 +82,7 @@ body {
   font-family: "Fraunces", serif;
   letter-spacing: 1.2rem;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .secondary-heading {
@@ -85,4 +90,8 @@ body {
   font-size: 2rem;
   letter-spacing: 1rem;
   font-family: "Fraunces", serif;
+}
+
+.burger-icon {
+  display: none;
 }

@@ -26,6 +26,10 @@
 /* Section Header */
 /* *********************** */
 
+.mobile {
+  display: none !important;
+}
+
 .header-container {
   padding: 3.2rem 0;
 }
@@ -49,12 +53,17 @@
   color: var(--very-dark-desaturated-blue);
   background-color: var(--white);
   border-radius: 10rem;
+  transition: all 0.3s ease-in-out;
 }
 
 .nav--link.nav--link-btn:hover,
 .nav--link.nav--link-btn:active {
   color: var(--white);
   background-color: #ffffff60;
+}
+
+.triangle {
+  display: none;
 }
 
 /* *********************** */
@@ -91,7 +100,7 @@
 }
 
 .text-side {
-  padding: 12.8rem;
+  padding: 12.8rem 12.8rem 0;
   gap: 3.2rem;
 }
 
