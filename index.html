@@ -29,7 +29,7 @@
     </style>
   </head>
   <body>
-    <header class="header" id="header">
+    <header class="header" id="header" role="banner">
       <div class="container header-container flex items-center justify-between">
         <div class="logo">
           <img src="images/logo.svg" alt="Sunnyside logo image" />
@@ -41,7 +41,7 @@
           </button>
         </div>
 
-        <nav class="header-nav" id="pass-header-nav">
+        <nav class="header-nav" id="pass-header-nav" role="navigation">
           <ul class="nav-list flex items-center">
             <li>
               <a href="#" class="nav--link">About</a>
@@ -65,7 +65,7 @@
       </div>
     </header>
 
-    <main class="main">
+    <main class="main" role="main">
       <section class="hero">
         <div class="hero-text flex items-center justify-center flex-column">
           <h1 class="primary-heading">We are creatives</h1>
@@ -264,7 +264,10 @@
       </section>
     </main>
 
-    <footer class="section-footer flex flex-column items-center">
+    <footer
+      class="section-footer flex flex-column items-center"
+      role="contentinfo"
+    >
       <div class="footer-logo">
         <svg width="124" height="24" xmlns="http://www.w3.org/2000/svg">
           <path
